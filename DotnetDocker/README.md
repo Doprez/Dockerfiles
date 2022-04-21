@@ -20,7 +20,7 @@ finally add this Dockerfile to you apps directory and run it
 
 # Running
 
-To run just enter the below either in your terminal
+To run just enter the below in your terminal
 ```
 dotnet restore -r linux-musl-x64
 dotnet publish -c release -o /app -r linux-musl-x64 --self-contained false --no-restore
